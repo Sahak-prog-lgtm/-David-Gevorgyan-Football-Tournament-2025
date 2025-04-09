@@ -257,7 +257,7 @@ th{
 .headin{
 	text-align: center;
 	text-decoration: none;
-	color: #ffe221;
+	color: #000000;
 	margin: 30px;
 	display: block;
 }
@@ -267,7 +267,7 @@ th{
 }
 
 .wpos td{
-	color: #77ff21;
+	color: #000000;
 }
 
 .pos{
@@ -275,25 +275,9 @@ th{
 }
 
 .pos td{
-	color: #ff7b21;
+	color: #000000;
 }
 
 table .col{
 	border-bottom: 1px solid #000000;
-}
-
-.wpos:hover{
-	background-color: #77ff21;
-}
-
-.wpos:hover td{
-	color: #000000;
-}
-
-.pos:hover{
-	background-color: #ff7b21;
-}
-
-.pos:hover td{
-	color: #000000;
 }
