@@ -1,10 +1,64 @@
-.container{
-width: 1200px;
-height: 800px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
 
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
 
+.container {
+    padding: 20px;
+}
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+section {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+section h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.player-card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
 }
