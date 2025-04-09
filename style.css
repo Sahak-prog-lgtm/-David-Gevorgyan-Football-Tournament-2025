@@ -1,3 +1,4 @@
+/* Հիմնական դիզայն */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,13 +6,7 @@ body {
     background-color: #f4f4f9;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
+/* Պատմում է բաժնի փոփոխությունը մեծ էկրանի համար */
 .container {
     padding: 20px;
 }
@@ -22,12 +17,7 @@ section {
     height: auto;
 }
 
-section h2 {
-    font-size: 24px;
-    text-align: center;
-    color: #333;
-}
-
+/* Խաղերի բաժին */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -45,19 +35,36 @@ th {
     color: white;
 }
 
-td {
-    text-align: center;
+/* Մեդիա հարցում՝ եթե էկրանը փոքր է */
+@media (max-width: 768px) {
+    /* Փոքր էկրանների համար փոփոխություններ */
+    table, th, td {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .section {
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    /* Խաղացողների քարտերը կարգավորում */
+    .player-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .player-card img {
+        width: 100%;
+    }
 }
 
-h1 {
-    color: #333;
-}
-
-.player-card {
-    display: inline-block;
-    width: 200px;
-    margin: 10px;
-    text-align: center;
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
