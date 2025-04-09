@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ֆուտբոլային Մրցաշար </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+        
+        .media-content {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .media-content img {
+            width: 80%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .media-content video {
+            width: 50%;
+            height: 400px;
+            margin-top: 20px;
+        }
+
+        .player-card {
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .player-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .player-card h3 {
+            color: #333;
+            font-size: 18px;
+        }
+        
+        .player-card p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ֆուտբոլային Մրցաշար</h1>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Խաղերի արդյունքները</h2>
+
+
+       
+
+        <table id="matchesTable">
+            <thead>
+                <tr>
+                    <th>Թիմ 1</th>
+                    <th>Թիմ 2</th>
+                    <th>Արդյունք</th>
+                    <th>Ամսաթիվ</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+   
+    <!-- <div class="section">
+        <h2>Ամսվա խաղացողները</h2>
+        
+        <div class="media-content">
+            
+            <div class="player-card">
+                
+                <h3>Արեն Համբարձումյան</h3>
+                <p>Գոլեր: 7 | Ասիստներ: 3 | Դեղին քարտեր: 1</p>
+            </div>
+
+            
+            <div class="player-card">
+                
+                <h3>Հարություն Մկրտչյան</h3>
+                <p>Գոլեր: 5 | Ասիստներ: 2 | Դեղին քարտեր: 2</p>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <div class="section">
+        <h2>խաղացողների վիճակագրություն</h2>
+        <table id="playersTable">
+            <thead>
+                <tr>
+                    <th>Խաղացող</th>
+                    <th>Թիմ</th>
+                    <th>Գոլեր</th>
+                    <th>Ասիստներ</th>
+                    <th>Դեղին քարտեր</th>
+                    <th>Կարմիր քարտեր</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    const matches = [
+        { team1: '12', team2: '9', score: '-', date: '2025-04-15' },
+        { team1: 'Թիմ 3', team2: 'Թիմ 4', score: '1-1', date: '2025-04-02' }
+    ];
+
+    const players = [
+        { name: 'Իվանով', team: 'Թիմ 1', goals: 5, assists: 3, yellow_cards: 1, red_cards: 0 },
+        { name: 'Պետրով', team: 'Թիմ 2', goals: 2, assists: 1, yellow_cards: 2, red_cards: 0 },
+    ];
+
+    function displayMatches() {
+        const matchesTable = document.getElementById('matchesTable').getElementsByTagName('tbody')[0];
+        matches.forEach(match => {
+            const row = matchesTable.insertRow();
+            row.insertCell(0).innerText = match.team1;
+            row.insertCell(1).innerText = match.team2;
+            row.insertCell(2).innerText = match.score;
+            row.insertCell(3).innerText = match.date;
+        });
+    }
+
+    function displayPlayers() {
+        const playersTable = document.getElementById('playersTable').getElementsByTagName('tbody')[0];
+        players.forEach(player => {
+            const row = playersTable.insertRow();
+            row.insertCell(0).innerText = player.name;
+            row.insertCell(1).innerText = player.team;
+            row.insertCell(2).innerText = player.goals;
+            row.insertCell(3).innerText = player.assists;
+            row.insertCell(4).innerText = player.yellow_cards;
+            row.insertCell(5).innerText = player.red_cards;
+        });
+    }
+
+    displayMatches();
+    displayPlayers();
+</script>
+
+</body>
+</html>
