@@ -11,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-	color: #fff;
 }
 
 /* Պատմում է բաժնի փոփոխությունը մեծ էկրանի համար */
@@ -74,7 +73,7 @@ th {
 }
 .playoff-table * {
     box-sizing: border-box;
-    background-image: url(https://cdn.punchng.com/wp-content/uploads/2023/09/19111651/UEFA-Champions-League.jpeg);
+    background-image: url(./img/UEFA-Champions-League.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -230,7 +229,7 @@ th {
   margin: 0;
 	border: 0;
 	padding: 0;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 html{
@@ -280,7 +279,7 @@ th{
 }
 
 table .col{
-	border-bottom: 1px solid #FFFFFF;
+	border-bottom: 1px solid #000000;
 }
 
 .wpos:hover{
