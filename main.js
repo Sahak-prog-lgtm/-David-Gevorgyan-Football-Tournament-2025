@@ -1,64 +1,38 @@
-
-
-// const barev = (text) => {
-//     return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
-//   };
-
-//   console.log(barev("barev"));
-
-// const arr = [1,2,"", false, 0,true, [], {}, null, "sgsgs"]
-
-// const filterArr = arr.filter((item) => typeof item === "number");
-
-// console.log(filterArr);
-
-// const arr = [1,2,"", false, 0,true, [], {}, "value", null, "sgsgs"]
-
-// const filterArr = arr.filter((item) => typeof item === "object");
-
-// console.log(filterArr);
-
-
-const arr = [
-    {
-        title: "title1",
-            price: 50,
-        text: "text1",
-
-
-    },
-{
-    title: "title2",
-        price: 55,
-    text: "text2",
-
-
-},
-{
-    title: "title3",
-        price: 60,
-    text: "text3",
-
-
-},
-{
-    title: "title4",
-        price: 65,
-    text: "text4",
-
-
-},
-
+const matches = [
+    { team1: '12', team2: '9', score: '-', date: '2025-04-15' },
+    { team1: 'Թիմ 3', team2: 'Թիմ 4', score: '1-1', date: '2025-04-02' }
 ];
 
-// const value = prompt("hello")
+const players = [
+    { name: 'Իվանով', team: 'Թիմ 1', goals: 5, assists: 3, yellow_cards: 1, red_cards: 0 },
+    { name: 'Պետրով', team: 'Թիմ 2', goals: 2, assists: 1, yellow_cards: 2, red_cards: 0 },
+];
 
-// const filterArr = arr.filter((item,) => item.title.includes(value) );
+function displayMatches() {
+    const matchesTable = document.getElementById('matchesTable').getElementsByTagName('tbody')[0];
+    matches.forEach(match => {
+        const row = matchesTable.insertRow();
+        row.insertCell(0).innerText = match.team1;
+        row.insertCell(1).innerText = match.team2;
+        row.insertCell(2).innerText = match.score;
+        row.insertCell(3).innerText = match.date;
+    });
+}
 
-// console.log(filterArr);
+function displayPlayers() {
+    const playersTable = document.getElementById('playersTable').getElementsByTagName('tbody')[0];
+    players.forEach(player => {
+        const row = playersTable.insertRow();
+        row.insertCell(0).innerText = player.name;
+        row.insertCell(1).innerText = player.team;
+        row.insertCell(2).innerText = player.goals;
+        row.insertCell(3).innerText = player.assists;
+        row.insertCell(4).innerText = player.yellow_cards;
+        row.insertCell(5).innerText = player.red_cards;
+    });
+}
 
-    // const newArr = arr.map((item, index) => item.title + " " + index )
-
-    // console.log(newArr);
+displayMatches();
+displayPlayers();
 
     
