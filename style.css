@@ -16,6 +16,7 @@ body {
 /* Պատմում է բաժնի փոփոխությունը մեծ էկրանի համար */
 .container {
     padding: 20px;
+    
 }
 
 section {
@@ -51,6 +52,7 @@ th {
 
     .container {
         padding: 10px;
+        
     }
 
     .section {
@@ -73,9 +75,7 @@ th {
 }
 .playoff-table * {
     box-sizing: border-box;
-    background-image: url(./img/UEFA-Champions-League.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
   .playoff-table {
