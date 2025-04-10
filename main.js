@@ -1,21 +1,22 @@
+// Sample match data
 const matches = [
-    { team1: '1', team2: '1', score: '-', date: '2025-04-15' },
-    { team1: '1', team2: '1', score: '-', date: '2025-04-15' },
-    { team1: '1', team2: '1', score: '-', date: '2025-04-15' },
-    { team1: '1', team2: '1', score: '-', date: '2025-04-15' },
-    { team1: '1', team2: '1', score: '-', date: '2025-04-15' },
+    { team1: 'Team A', team2: 'Team B', score: '-', date: '2025-04-15' },
+    { team1: 'Team C', team2: 'Team D', score: '-', date: '2025-04-15' },
+    { team1: 'Team E', team2: 'Team F', score: '-', date: '2025-04-15' },
+    { team1: 'Team G', team2: 'Team H', score: '-', date: '2025-04-15' },
+    { team1: 'Team I', team2: 'Team J', score: '-', date: '2025-04-15' },
 ];
 
+// Sample player data
 const players = [
-     { name: '1', team: '1', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-     { name: '1', team: '1', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-         { name: '1', team: '1', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-         { name: '1', team: '1', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-         { name: '1', team: '1', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-
-    
+    { name: 'Player 1', team: 'Team A', goals: 3, assists: 1, yellow_cards: 0, red_cards: 0 },
+    { name: 'Player 2', team: 'Team B', goals: 1, assists: 2, yellow_cards: 1, red_cards: 0 },
+    { name: 'Player 3', team: 'Team C', goals: 0, assists: 0, yellow_cards: 2, red_cards: 1 },
+    { name: 'Player 4', team: 'Team D', goals: 4, assists: 3, yellow_cards: 0, red_cards: 0 },
+    { name: 'Player 5', team: 'Team E', goals: 2, assists: 1, yellow_cards: 1, red_cards: 0 },
 ];
 
+// Function to display matches
 function displayMatches() {
     const matchesTable = document.getElementById('matchesTable').getElementsByTagName('tbody')[0];
     matches.forEach(match => {
@@ -27,6 +28,7 @@ function displayMatches() {
     });
 }
 
+// Function to display players
 function displayPlayers() {
     const playersTable = document.getElementById('playersTable').getElementsByTagName('tbody')[0];
     players.forEach(player => {
@@ -40,7 +42,8 @@ function displayPlayers() {
     });
 }
 
-displayMatches();
-displayPlayers();
-
-    
+// Wait for DOM to load before running display functions
+document.addEventListener('DOMContentLoaded', () => {
+    displayMatches();
+    displayPlayers();
+});
