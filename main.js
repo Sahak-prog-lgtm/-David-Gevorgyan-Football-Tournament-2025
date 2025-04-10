@@ -38,8 +38,6 @@ function displayPlayers() {
         row.insertCell(1).innerText = player.team;
         row.insertCell(2).innerText = player.goals;
         row.insertCell(3).innerText = player.assists;
-        row.insertCell(4).innerText = player.yellow_cards;
-        row.insertCell(5).innerText = player.red_cards;
     });
 }
 
