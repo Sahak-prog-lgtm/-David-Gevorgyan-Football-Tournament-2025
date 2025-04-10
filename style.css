@@ -335,3 +335,6 @@ body.dark-mode th {
 #theme-toggle:hover {
     background-color: #2980b9;
 }
+.info{
+    margin-left: 100px;
+}
