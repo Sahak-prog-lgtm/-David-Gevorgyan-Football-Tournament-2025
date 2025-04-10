@@ -1,18 +1,12 @@
 const matches = [
-    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
-    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
-    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
-    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
-    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
-    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
+    { team1: '1', team2: '1', score: '-', date: '2025-04-15' },
+    { team1: '1', team2: '1', score: '-', date: '2025-04-15' },
 ];
 
 const players = [
-     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
-     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
+     { name: '1', team: '1', goals: --, assists: --, yellow_cards: --, red_cards: -- },
+     { name: '1', team: '1', goals: --, assists: --, yellow_cards: --, red_cards: -- },
+
     
 ];
 
