@@ -10,11 +10,11 @@ const matches = [
 
 // Sample player data
 const players = [
-    { name: 'Player 1', team: 'Team A', goals: 0, assists: 0, yellow_cards: 0, red_cards: 0 },
-    { name: 'Player 2', team: 'Team B', goals: 0, assists: 0, yellow_cards: 0, red_cards: 0 },
-    { name: 'Player 3', team: 'Team C', goals: 0, assists: 0, yellow_cards: 0, red_cards: 0 },
-    { name: 'Player 4', team: 'Team D', goals: 0, assists: 0, yellow_cards: 0, red_cards: 0 },
-    { name: 'Player 5', team: 'Team E', goals: 0, assists: 0, yellow_cards: 0, red_cards: 0 },
+    { name: 'Player 1', team: 'Team A', goals: 0, assists: 0 },
+    { name: 'Player 2', team: 'Team B', goals: 0, assists: 0 },
+    { name: 'Player 3', team: 'Team C', goals: 0, assists: 0 },
+    { name: 'Player 4', team: 'Team D', goals: 0, assists: 0 },
+    { name: 'Player 5', team: 'Team E', goals: 0, assists: 0 },
 ];
 
 // Function to display matches
