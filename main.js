@@ -1,11 +1,19 @@
 const matches = [
-    { team1: '12', team2: '9', score: '-', date: '2025-04-15' },
-    { team1: 'Թիմ 3', team2: 'Թիմ 4', score: '1-1', date: '2025-04-02' }
+    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
+    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
+    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
+    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
+    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
+    { team1: '--', team2: '-', score: '-', date: '2025-04-15' },
 ];
 
 const players = [
-    { name: 'Իվանով', team: 'Թիմ 1', goals: 5, assists: 3, yellow_cards: 1, red_cards: 0 },
-    { name: 'Պետրով', team: 'Թիմ 2', goals: 2, assists: 1, yellow_cards: 2, red_cards: 0 },
+     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
+     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
+     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
+     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
+     { name: '--', team: '--', goals: --, assists: --, yellow_cards: --, red_cards: -- },
+    
 ];
 
 function displayMatches() {
