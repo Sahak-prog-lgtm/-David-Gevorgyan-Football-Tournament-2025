@@ -16,71 +16,84 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Хедер */
 header {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #2c3e50;
+    padding: 20px;
     text-align: center;
     color: white;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #34495e;
 }
 
 /* Основной контейнер */
 .container {
-    padding: 20px;
-}
-
-section {
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Таблицы */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    background-color: #fff;
 }
 
 table, th, td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 12px;
     text-align: left;
 }
 
 th {
-    background-color: #333;
+    background-color: #2c3e50;
     color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    color: #333;
 }
 
 /* Подсветка строки */
 table tr:hover {
-    background-color: #f0f0f0;
-    transition: background-color 0.3s ease;
+    background-color: #f9f9f9;
+    transform: translateY(-2px);
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 /* Стили для позиций */
 .ptable table {
     margin: 30px auto;
-    border-collapse: collapse;
 }
 
 .ptable {
-    margin: 0px 0% 30px 0%;
+    margin-bottom: 40px;
 }
 
 th, td {
-    padding: 10px;
+    padding: 15px;
 }
 
 th {
-    background-color: black;
-    color: #ffe221;
+    background-color: #1abc9c;
+    color: #fff;
 }
 
 .wpos, .pos {
@@ -101,12 +114,14 @@ table .col {
     color: #000000;
     margin: 30px;
     display: block;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Playoff таблица */
 .playoff-table {
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     width: 100%;
     overflow-x: auto;
@@ -163,8 +178,13 @@ table .col {
     background-color: white;
     width: 160px;
     margin-bottom: 20px;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.playoff-table .playoff-table-pair-style:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .playoff-table .playoff-table-group {
@@ -206,7 +226,7 @@ table .col {
 
 .playoff-table .playoff-table-left-player {
     border-bottom: 1px solid #cccccc;
-    position: relative;
+position: relative;
 }
 
 .playoff-table .playoff-table-left-player:before {
@@ -232,8 +252,7 @@ table .col {
     margin-top: 100px;
 }
 
-.playoff-table .playoff-table-third-place .
-playoff-table-left-player:before {
+.playoff-table .playoff-table-third-place .playoff-table-left-player:before {
     display: none;
 }
 
@@ -254,19 +273,15 @@ playoff-table-left-player:before {
 /* Медиа для мобильных */
 @media (max-width: 768px) {
     table, th, td {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .container {
-        padding: 10px;
-    }
-
-    .section {
-        margin-top: 20px;
+        padding: 15px;
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .player-card {
@@ -307,10 +322,16 @@ body.dark-mode th {
     position: fixed;
     top: 15px;
     right: 15px;
-    padding: 8px 12px;
-    background-color: #444;
+    padding: 10px 15px;
+    background-color: #3498db;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 999;
+    transition: background-color 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background-color: #2980b9;
 }
