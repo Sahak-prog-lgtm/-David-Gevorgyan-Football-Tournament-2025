@@ -5,6 +5,7 @@ const matches = [
     { team1: 'Team E', team2: 'Team F', score: '-', date: '2025-04-15' },
     { team1: 'Team G', team2: 'Team H', score: '-', date: '2025-04-15' },
     { team1: 'Team I', team2: 'Team J', score: '-', date: '2025-04-15' },
+    { team1: 'Team I', team2: 'Team J', score: '-', date: '2025-04-15' },
 ];
 
 // Sample player data
@@ -47,8 +48,3 @@ document.addEventListener('DOMContentLoaded', () => {
     displayMatches();
     displayPlayers();
 });
-
-
-displayMatches();
-displayPlayers();
-
