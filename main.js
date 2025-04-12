@@ -1,7 +1,7 @@
 // Sample match data
 const matches = [
-    { team1: 'Team A', team2: 'Team B', score: '-', date: '2025-04-14' },
-    { team1: 'Team C', team2: 'Team D', score: '-', date: '2025-04-14' },
+    { team1: '12', team2: '10-11', score: '-', date: '2025-04-14' },
+    { team1: '8-1', team2: '9-3', score: '-', date: '2025-04-14' },
     { team1: 'Team E', team2: 'Team F', score: '-', date: '2025-04-16' },
     { team1: 'Team G', team2: 'Team H', score: '-', date: '2025-04-16' },
     { team1: 'Team I', team2: 'Team J', score: '-', date: '2025-04-18' },
