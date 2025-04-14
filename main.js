@@ -1,6 +1,6 @@
 // Sample match data
 const matches = [
-    { team1: '8-1', team2: '10-11', score: '3:6', date: '2025-04-14' },
+    { team1: '8-1', team2: '10-11', score: '4:15', date: '2025-04-14' },
     { team1: 'Shrjanavartner', team2: '10', score: '-', date: '2025-04-16 10:40' },
     { team1: ' 12', team2: '10-11', score: '-', date: '2025-04-16 9:30' },
     { team1: '9-3', team2: '9-2', score: '-', date: '2025-04-16 12:00' },
@@ -10,11 +10,11 @@ const matches = [
 
 // Sample player data
 const players = [
-      { name: 'R.Tatanyan', team: '10-11', goals: 3, assists: 1 },
-    { name: 'A. Araqelyan ', team: '8-1', goals: 3, assists: 0 },
-    { name: 'Player 3', team: 'Team C', goals: 0, assists: 0 },
-    { name: 'Player 4', team: 'Team D', goals: 0, assists: 0 },
-    { name: 'Player 5', team: 'Team E', goals: 0, assists: 0 },
+    { name: 'Roman Tatayan', team: '10-11', goals: 7, assists: 4,  },
+    { name: 'Alex Araqelyan', team: '8-1', goals: 3, assists: 0, },
+    { name: 'Abo Manukyan', team: '10-11', goals: 3, assists: 1, },
+    { name: 'Artur', team: '10-11', goals: 2, assists: 4,},
+    { name: 'Saqo', team: '10-11', goals: 2, assists: 0,},
 ];
 
 // Function to display matches
