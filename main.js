@@ -1,17 +1,17 @@
 // Sample match data
 const matches = [
     { team1: '8-1', team2: '10-11', score: '3:6', date: '2025-04-14' },
-    { team1: 'Team E', team2: 'Team E', score: '-', date: '2025-04-14' },
-    { team1: 'Team E', team2: 'Team F', score: '-', date: '2025-04-16' },
-    { team1: 'Team G', team2: 'Team H', score: '-', date: '2025-04-16' },
+    { team1: 'Shrjanavartner', team2: '10', score: '-', date: '2025-04-16 10:40' },
+    { team1: ' 12', team2: '10-11', score: '-', date: '2025-04-16 9:30' },
+    { team1: '9-3', team2: '9-2', score: '-', date: '2025-04-16 12:00' },
     { team1: 'Team I', team2: 'Team J', score: '-', date: '2025-04-18' },
     { team1: 'Team I', team2: 'Team J', score: '-', date: '2025-04-18' },
 ];
 
 // Sample player data
 const players = [
-    { name: 'Player 1', team: 'Team A', goals: 0, assists: 0 },
-    { name: 'Player 2', team: 'Team B', goals: 0, assists: 0 },
+      { name: 'R.Tatanyan', team: '10-11', goals: 3, assists: 1 },
+    { name: 'A. Araqelyan ', team: '8-1', goals: 3, assists: 0 },
     { name: 'Player 3', team: 'Team C', goals: 0, assists: 0 },
     { name: 'Player 4', team: 'Team D', goals: 0, assists: 0 },
     { name: 'Player 5', team: 'Team E', goals: 0, assists: 0 },
