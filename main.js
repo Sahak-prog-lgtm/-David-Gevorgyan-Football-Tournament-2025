@@ -4,8 +4,8 @@ const matches = [
     { team1: 'Շրջանավարտներ', team2: '10', score: '-', date: "04.16 12:00"  },
     { team1: ' 12', team2: '9-1', score: '-', date: "04.16 9:30" },
     { team1: '9-3', team2: '9-2', score: '-', date: "04.16 10:40" },
-    { team1: 'Team I', team2: 'Team J', score: '-',  },
-    { team1: 'Team I', team2: 'Team J', score: '-', },
+    { team1: 'Team I', team2: 'Team J', score: '-',  date: "--" },
+    { team1: 'Team I', team2: 'Team J', score: '-',  date: "--" },
 ];
 
 // Sample player data
