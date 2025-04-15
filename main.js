@@ -11,8 +11,8 @@ const matches = [
 // Sample player data
 const players = [
     { name: 'Roman Tantanyan', team: '10-11', goals: 7, assists: 4,  },
-    { name: 'Alex Araqelyan', team: '8-1', goals: 3, assists: 0, },
     { name: 'Abo Manukyan', team: '10-11', goals: 3, assists: 1, },
+    { name: 'Alex Araqelyan', team: '8-1', goals: 3, assists: 0, },
     { name: 'Artur Bagdagulyan', team: '10-11', goals: 2, assists: 4,},
     { name: 'Saqo Avagyan', team: '10-11', goals: 2, assists: 0,},
 ];
