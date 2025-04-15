@@ -24,8 +24,7 @@ function displayMatches() {
         const row = matchesTable.insertRow();
         row.insertCell(0).innerText = match.team1;
         row.insertCell(1).innerText = match.team2;
-        row.insertCell(2).innerText = match.score;
-        row.insertCell(3).innerText = match.date;
+        row.insertCell(2).innerText = match.score
     });
 }
 
