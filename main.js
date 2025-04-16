@@ -1,9 +1,9 @@
 // Sample match data
 const matches = [
     { team1: '8-1', team2: '10-11', score: '4:15', date: "04.14 12:00"  },
-    { team1: 'Շրջանավարտներ', team2: '10', score: '-', date: "04.16 12:00"  },
+    { team1: 'Շրջանավարտներ', team2: '10', score: '3:2', date: "04.16 12:00"  },
     { team1: ' 12', team2: '9-1', score: '0:1', date: "04.16 9:30" },
-    { team1: '9-3', team2: '9-2', score: '-', date: "04.16 10:40" },
+    { team1: '9-3', team2: '9-2', score: '6:1', date: "04.16 10:40" },
     { team1: '8-2', team2: '9-2', score: '-',  date: "04.18 9:20" },
     { team1: 'Քոլեջ', team2: '10-11', score: '-',  date: "04.18 10:30" },
     { team1: '9-3', team2: '10', score: '-',  date: "04.18 11:50" },
@@ -21,10 +21,10 @@ const matches = [
 // Sample player data
 const players = [
     { name: 'Ռոման Թանթանյան', team: '10-11', goals: 7, assists: 4,  },
+    { name: 'Աբո Մանուկյան', team: '9-3', goals: 4, assists: 0, },
     { name: 'Աբո Մանուկյան', team: '10-11', goals: 3, assists: 1, },
     { name: 'Ալեքս Առաքելյան', team: '8-1', goals: 3, assists: 0, },
     { name: 'Արթուր Բաղդագուլյան', team: '10-11', goals: 2, assists: 4,},
-    { name: 'Սաքո Ավագյան', team: '10-11', goals: 2, assists: 0,},
 ];
 
 // Function to display matches
