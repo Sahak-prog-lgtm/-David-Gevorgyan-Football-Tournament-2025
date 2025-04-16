@@ -2,10 +2,21 @@
 const matches = [
     { team1: '8-1', team2: '10-11', score: '4:15', date: "04.14 12:00"  },
     { team1: 'Շրջանավարտներ', team2: '10', score: '-', date: "04.16 12:00"  },
-    { team1: ' 12', team2: '9-1', score: '-', date: "04.16 9:30" },
+    { team1: ' 12', team2: '9-1', score: '0:1', date: "04.16 9:30" },
     { team1: '9-3', team2: '9-2', score: '-', date: "04.16 10:40" },
-    { team1: 'Team I', team2: 'Team J', score: '-',  date: "--" },
-    { team1: 'Team I', team2: 'Team J', score: '-',  date: "--" },
+    { team1: '8-2', team2: '9-2', score: '-',  date: "04.18 9:20" },
+    { team1: 'Քոլեջ', team2: '10-11', score: '-',  date: "04.18 10:30" },
+    { team1: '8-2', team2: '', score: '-',  date: "04.18 9:20" },
+    { team1: '9-3', team2: '10', score: '-',  date: "04.18 11:50" },
+    { team1: '8-2', team2: '9-3', score: '-',  date: "04.21 10:30" },
+    { team1: '12', team2: 'Քոլեջ', score: '-',  date: "04.21 9:20" },
+    { team1: '8-1', team2: '9-1', score: '-',  date: "04.21 11:50" },
+    { team1: 'շրջանավարտներ', team2: '9-2', score: '-',  date: "04.23 11:50" },
+    { team1: '10', team2: '10-11', score: '-',  date: "04.23 9:20" },
+    { team1: '8-1', team2: '12', score: '-',  date: "04.23 10:30" },
+    { team1: 'Քոլեջ', team2: '9-1', score: '-',  date: "04.25 9:20" },
+    { team1: 'Շրջանավարտներ', team2: '8-2', score: '-',  date: "04.25 10:30" },
+    
 ];
 
 // Sample player data
