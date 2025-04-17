@@ -21,7 +21,7 @@ const matches = [
 // Sample player data
 const players = [
     { name: 'Ռոման Թանթանյան', team: '10-11', goals: 7, assists: 4,  },
-    { name: 'Աբո Մանուկյան', team: '9-3', goals: 4, assists: 0, },
+    { name: 'Վահրամ Մարտիրոսյան', team: '9-3', goals: 4, assists: 0, },
     { name: 'Աբո Մանուկյան', team: '10-11', goals: 3, assists: 1, },
     { name: 'Ալեքս Առաքելյան', team: '8-1', goals: 3, assists: 0, },
     { name: 'Արթուր Բաղդագուլյան', team: '10-11', goals: 2, assists: 4,},
