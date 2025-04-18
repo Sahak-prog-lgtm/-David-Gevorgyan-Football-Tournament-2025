@@ -4,7 +4,7 @@ const matches = [
     { team1: 'Շրջանավարտներ', team2: '10', score: '3:2', date: "04.16 12:00"  },
     { team1: ' 12', team2: '9-1', score: '0:1', date: "04.16 9:30" },
     { team1: '9-3', team2: '9-2', score: '6:1', date: "04.16 10:40" },
-    { team1: '8-2', team2: '9-2', score: '-',  date: "04.18 9:20" },
+    { team1: '8-2', team2: '9-2', score: '1:2',  date: "04.18 9:20" },
     { team1: 'Քոլեջ', team2: '10-11', score: '3:10',  date: "04.18 10:30" },
     { team1: '9-3', team2: '10', score: '2:4',  date: "04.18 11:50" },
     { team1: '8-2', team2: '9-3', score: '-',  date: "04.21 9:20" },
