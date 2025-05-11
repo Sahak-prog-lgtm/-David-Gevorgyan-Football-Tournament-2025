@@ -17,18 +17,18 @@ const matches = [
     { team1: 'Շրջանավարտներ', team2: '8-2', score: '3:0',  date: "04.28 14:40" },
         { team1: '9-1', team2: '10', score: '5:2',  date: "05.05 11:00" },
         { team1: 'Շրջանավարտներ', team2: '12', score: '2:1',  date: "05.05 12:05" },
-            { team1: '9-1', team2: '10', score: '-',  date: "05.05 9:30" },
-        { team1: 'Շրջանավարտներ', team2: '12', score: '-',  date: "05.05 13:00" }
+            { team1: '9-1', team2: '10', score: '2:1 (7:3)',  date: "05.05 9:30" },
+        { team1: 'Շրջանավարտներ', team2: '12', score: '2:3 дв 5:4 (7:5)',  date: "05.05 13:00" }
     
     
 ];
 
 // Sample player data
 const players = [
+    { name: 'Վարուժ Կարապետյան', team: '9-1', goals: 20, assists: 1, },
     { name: 'Ռոման Թանթանյան', team: '10-11', goals: 15, assists: 6,  },
-    { name: 'Վարուժ Կարապետյան', team: '9-1', goals: 15, assists: 1, },
-    { name: 'Բարսեղյան Մարտին', team: '12', goals: 10, assists: 2, }, 
-    { name: 'Ռուբեն Մաթևոսյան', team: '10', goals: 7, assists: 5,},
+    { name: 'Բարսեղյան Մարտին', team: '12', goals: 11, assists: 2, }, 
+    { name: 'Ռուբեն Մաթևոսյան', team: '10', goals: 9, assists: 5,},
     { name: 'Ալբերտ Մանուկյան', team: '10-11', goals: 6, assists: 2, },
     
     
